@@ -10,7 +10,9 @@ public class HomeController {
     @RequestMapping("home")   
     public String home(){
      System.out.println("Hiiiiiiiiiiiiiiiiii");
-     return "home.jsp";
+    //  return "home.jsp";
+    return "index.html";
+
     }
 
 }
